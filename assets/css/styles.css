@@ -1,0 +1,332 @@
+* {
+    font-family: 'Handlee', cursive;
+}
+
+html {
+    background-color: #1c2c3f;
+    background-image: url("../images/hi.png");
+    background-size: 64%;
+    background-position-x: 50%;
+    background-repeat: repeat-y;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.animation-div {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position-y: 15%;
+    color: white;
+}
+
+
+.normal {
+    width: fit-content;
+    height: 100%;
+    border-left: 1.2px solid rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.headings {
+    font-weight: 600;
+    font-size: 3rem;
+    width: fit-content;
+    margin: 30px auto;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+h1 i {
+    font-size: 2.7rem;
+
+}
+
+.form-container {
+    width: 50vw;
+    margin: auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "g1 g1"
+        "g2 g2"
+        "g3 g4"
+        "g5 g5";
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+
+input,
+select {
+    width: 100%;
+    outline: none;
+    border-width: 0px 0px 1px 0px;
+    background: transparent;
+    font-size: 1.3rem;
+}
+
+.headn {
+    font-size: 2.5rem;
+    color: #1C2C3F;
+    font-weight: 600;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.events p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.6rem;
+    color: #1C2C3F;
+    font-family: 'Kaushan Script', cursive;
+}
+
+option {
+    background-color: #1C2C3F;
+    color: white;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #1C2C3F;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#form-name {
+    grid-area: g1;
+}
+
+#form-desc {
+    grid-area: g2;
+}
+
+#form-category {
+    grid-area: g3;
+}
+
+#form-date {
+    grid-area: g4;
+}
+
+
+#buttons {
+    grid-area: g5;
+    width: 100%;
+    height: 60px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 240px;
+    font-size: 1.3rem;
+    border: 0px;
+    font-family: 'Kaushan Script', cursive;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#add {
+    background-color: #212938d5;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#delete {
+    background-color: rgb(207, 25, 25);
+    color: white;
+    height: 60px;
+    margin-right: -100px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.events {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+
+}
+
+i {
+    margin-right: 10px;
+}
+
+#event-name {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+tr {
+    color: #1C2C3F;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #d0d6ec;
+}
+
+td {
+    border-bottom: 0.2px solid rgb(177, 177, 177);
+}
+
+#event-desc {
+    font-size: 1.3rem;
+    margin-top: 0px;
+    font-style: normal;
+    font-family: inherit;
+}
+
+#event-date {
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+
+#event-category {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#check {
+    width: 40px;
+    text-align: center;
+    background: transparent;
+}
+
+#check form input {
+    margin: 0px;
+    cursor: pointer;
+}
+
+#check form a {
+    width: 10px;
+    height: 10px;
+}
+
+#text {
+    width: 80%;
+    position: relative;
+    top: 10%;
+    left: 12px;
+}
+
+#text * {
+    font-family: 'Poppins';
+}
+
+#text button {
+    position: relative;
+    left: 30%;
+    top: 25px;
+    height: 50px;
+    background-color: #9C5543;
+    color: #f0dbd4;
+    outline: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.a1 {
+    width: max-content;
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #CBC8D3;
+}
+
+#text h1 {
+    font-size: 4.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+#text p {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#text h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+
+}
+
+#check svg {
+    width: 1.4em;
+}
+
+.box,
+.check {
+    stroke: rgb(0, 124, 226, 0.8);
+    stroke-width: 15;
+    fill: white;
+    display: inline-block;
+}
+
+.box {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    fill: white;
+    transition: 1s ease-in-out;
+}
+
+.check {
+    stroke-dasharray: 190;
+    stroke-dashoffset: 190;
+    fill: white;
+    transition: 1s ease-in-out;
+}
+
+#big-check {
+    stroke-width: 10;
+    stroke: #4dc75c;
+    width: 0%;
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    fill: white;
+
+}
+
+.circle {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    transition: 1s ease-in-out;
+}
+
+.big-tick {
+    stroke: #4dc75c;
+    stroke-width: 20;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    transition: 1s ease-in-out;
+    fill: white;
+}
